@@ -1,5 +1,5 @@
-## quill-video-resize-module
-
+## quill-video-resize-module2
+> forked from johnnychn/quill-video-resize-module
 ### install
 
 ```
