@@ -3,14 +3,14 @@
 ### install
 
 ```
-yarn add quill-video-resize-module
+yarn add quill-video-resize-module2
 ```
 
 basic usage
 ```js
 <script>
 import { quillEditor, Quill } from 'vue-quill-editor'
-import VideoResize from 'quill-video-resize-module'
+import VideoResize from 'quill-video-resize-module2'
 Quill.register('modules/VideoResize', VideoResize)
 
 export default {
