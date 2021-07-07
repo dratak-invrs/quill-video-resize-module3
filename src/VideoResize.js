@@ -3,6 +3,7 @@ import DefaultOptions from './DefaultOptions'
 import { DisplaySize } from './modules/DisplaySize'
 import { Toolbar } from './modules/Toolbar'
 import { Resize } from './modules/Resize'
+import Quill from 'quill'
 
 const knownModules = { DisplaySize, Toolbar, Resize }
 
@@ -64,7 +65,7 @@ export default class VideoResize {
       if (this.vid) {
 
         if (evt.keyCode == 46 || evt.keyCode == 8) {
-          q.find(this.vid).deleteAt(0)
+          Quill.find(this.vid).deleteAt(0)
         }
         this.hide()
       }

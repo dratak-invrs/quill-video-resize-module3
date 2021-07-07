@@ -1,18 +1,18 @@
 {
-  "name": "quill-video-resize-module2",
+  "name": "quill-video-resize-module3",
   "version": "0.0.1",
   "description": "A module for Quill rich text editor to allow video to be resized.",
   "main": "video-resize.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "webpack -p --progress --colors",
-    "dev": "webpack --progress --colors --watch",
+    "dev": "webpack --progress --colors",
     "lint": "eslint --ext js,es6 src",
     "fixlint": "eslint --fix --ext js,es6 src"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marchFantasy/quill-video-resize-module2.git"
+    "url": "git+https://github.com/dratak-invrs/quill-video-resize-module3.git"
   },
   "keywords": [
     "quill",
@@ -21,7 +21,7 @@
     "resize",
     "sizer"
   ],
-  "author": "marchFantasy",
+  "author": "dratak-invrs",
   "contributors": [
     {
       "name": "marchFantasy",
@@ -30,9 +30,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/marchFantasy/quill-video-resize-module2/issues"
+    "url": "https://github.com/marchFantasy/quill-video-resize-module3/issues"
   },
-  "homepage": "https://github.com/marchFantasy/quill-video-resize-module2#readme",
+  "homepage": "https://github.com/marchFantasy/quill-video-resize-module3#readme",
   "devDependencies": {
     "babel-cli": "^6.24.0",
     "babel-eslint": "^7.2.1",
@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.4",
-    "quill": "^1.2.2",
+    "quill": "^1.3.7",
     "raw-loader": "^0.5.1"
   }
 }
