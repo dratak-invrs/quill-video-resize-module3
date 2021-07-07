@@ -1,9 +1,9 @@
 var path = require('path');
 
 module.exports = {
-    entry: "./dist/video-resize.min.js",
+    entry: "./src/VideoResize.js",
     output: {
-        path: `${__dirname}/dist`,
+        path: __dirname,
         library: 'VideoResize',
         libraryTarget: 'umd',
         filename: "video-resize.min.js"
